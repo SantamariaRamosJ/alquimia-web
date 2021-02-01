@@ -10,17 +10,14 @@
     height: 80px;
     display: flex;
     justify-content: center;
-    
+
 
 
     }
 
-    #toggler-navbar{
-        color: #72735C;
-        background-color: #72735C;
-    }
 
-#container-logo{
+
+#navbar-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,42 +30,46 @@
     align-items: center;
 }
 
+
+
 body{
-    text-align: center;
+    background-color: rgba(242,242,242,0.01);
+
 }
 
-#logo-cover{
-    height: 400px;
+#container-letras{
+    height:400px;
     width: 400px;
-}
-
-#bg-alquimia{
-    background-color: rgb(229, 229, 229);
-}
-
-#logo-letras{
-    height: 200px;
-    width: 300px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-
-}
-
-#letras-container{
     display:flex;
     align-items: center;
     justify-content: center;
 }
-.button-welcome{
-    background-color: #592542;
-    padding: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    color: white;
-    border-color: #592542;
-    border-radius: 5px;
 
+#logo-letras{
+    height: 150px;
+    width: 250px;
+
+}
+
+
+
+#container-logo-serpent{
+    height:400px;
+    width: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cont-all{
+    height: 100vh;
+}
+
+
+
+#svg{
+    width: 400px;
+    height:400px;
 }
 
 #intro-row{
@@ -76,16 +77,16 @@ body{
 
 
 }
-#section-container1{
-    padding-bottom: 20px;
-    
-}
-
 #section-container{
-    margin-top:80px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#footer{
+
+
+
+#footer1{
     padding: 20px;
     background-color: #593945;
     color: white;
@@ -93,21 +94,58 @@ body{
     margin-right: 0%;
     display: flex;
     justify-content: center;
+    align-items: flex-end
 }
 
-#copyright{
-    margin-bottom:0px ;
+#footer{
+    margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+#button-container{
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.button-welcome{
+    background-color: #592542;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border-color: #b6a7af;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px #592542;
+
+
 }
 .button-welcome:hover{
     background-color: #593945;
     border-color: #593945;
 }
 
+#acceder-button{
+    color: white;
+
+}
+
+#acceder-button:hover{
+    color: #b6a7af;
+
+}
+
 #logo-serpents-only{
     animation: logo-serpents-only 20s infinite linear;
     transform-origin: center;
     transform-box: fill-box;
-    
+
 
 }
 
