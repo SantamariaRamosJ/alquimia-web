@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+#logo-navbar{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    
+
+
+    }
+
+    #toggler-navbar{
+        color: #72735C;
+        background-color: #72735C;
+    }
+
+#container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(125,166,106,0.2);
+}
+
+#fluid-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    text-align: center;
+}
+
+#logo-cover{
+    height: 400px;
+    width: 400px;
+}
+
+#bg-alquimia{
+    background-color: rgb(229, 229, 229);
+}
+
+#logo-letras{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+
+#letras-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-welcome{
+    background-color: #592542;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border-color: #592542;
+    border-radius: 5px;
+
+}
+
+#intro-row{
+    height: 580px;
+
+
+}
+#section-container1{
+    padding-bottom: 20px;
+    
+}
+
+#section-container{
+    margin-top:80px;
+}
+
+#footer{
+    padding: 20px;
+    background-color: #593945;
+    color: white;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+#copyright{
+    margin-bottom:0px ;
+}
+.button-welcome:hover{
+    background-color: #593945;
+    border-color: #593945;
+}
+
+#logo-serpents-only{
+    animation: logo-serpents-only 20s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+    
+
+}
+
+@keyframes logo-serpents-only{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
