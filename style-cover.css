@@ -68,10 +68,7 @@ body{
 
 
 
-#svg{
-    width: 400px;
-    height:400px;
-}
+
 
 #intro-row{
     height: 580px;
@@ -126,9 +123,12 @@ body{
 
 
 #logo-serpents-only{
+    width: 400px;
+    height:400px;
     animation: logo-serpents-only 20s infinite linear;
     transform-origin: center;
     transform-box: fill-box;
+    
 
 
 }

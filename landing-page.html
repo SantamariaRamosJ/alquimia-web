@@ -42,7 +42,7 @@
         <nav id="navbar-background" class="navbar navbar-expand-lg navbar-light flex-fill ">
             <div id="inicio" class="container-fluid" style="padding: 0">
                 <img id="logo" src="./img/solo-triangulo.png"> </img> <img id="letras" src="./img/letras.png"></img>
-                <button style="color: #73225D;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button id="hamburger" style="color: #73225D;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span style="color: #73225D;" class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse navbar-menu" id="navbarNav" style="height: 100%; margin-right: 10px">
@@ -448,7 +448,7 @@
                     <textarea id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
                     <label for="form-contact-message">Mensaje</label>
                     <div id="send-icon0">
-                        <a class="">
+                        <a id="send-icon0">
                             <i id="send-icon" class="fa fa-paper-plane-o" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -470,7 +470,7 @@
 
                 #send-icon0{
                     display: flex;
-                    justify-content: flex-end;
+                    justify-content: center;
                    
                 }
 
