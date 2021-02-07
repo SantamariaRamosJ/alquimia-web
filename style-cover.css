@@ -67,9 +67,6 @@ body{
 }
 
 
-
-
-
 #intro-row{
     height: 580px;
 
@@ -80,12 +77,6 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-
-
-
-
-
-
 
 
 #button-container{
@@ -118,8 +109,6 @@ body{
     color: white;
 
 }
-
-
 
 
 #logo-serpents-only{
