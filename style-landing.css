@@ -80,6 +80,7 @@ body{
     padding-right: 0px;
     min-width: 250px;
     
+    
 
 }
 #header-img{
@@ -87,6 +88,7 @@ body{
     width: 400px; */
     display: flex;
     justify-content: center;
+    width: 100%;
     /* min-width: 840px; */
 
 }
@@ -167,6 +169,6 @@ body{
     width: 300px;
 }
 
-
+}
 
 
